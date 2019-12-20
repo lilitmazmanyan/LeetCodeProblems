@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class ValodParentheses {
-    public boolean isValid(String s) {
+    public static boolean isValid(String s) {
         ArrayList<Character> arr = new ArrayList<>();
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '{' || s.charAt(i) == '[' || s.charAt(i) == '(') {
